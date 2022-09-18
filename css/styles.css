@@ -11,7 +11,6 @@
   --second-back-color: #f5f4fa;
   --back-color-hero-footer: #2f303a;
   --color-btn: #188ce8;
-  --color-border: #eeeeee;
   --color-btn-name: #212121;
   --header-logo-color: #212121;
   --header-link-color: #212121;
@@ -219,7 +218,6 @@ body {
 
 .item-portfolio {
   background-color: var(--general-back-color);
-  border: 1px solid var(--color-border);
 }
 
 .title-name-portfolio {
@@ -233,6 +231,7 @@ body {
   font-size: var(--second-font-size);
   line-height: 1.88;
   letter-spacing: 0.03em;
+  color: var(--base-text-color);
 }
 
 /*----------заховані заголовки--------*/
